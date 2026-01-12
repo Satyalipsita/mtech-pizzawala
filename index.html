@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MTech Pizzawala</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🍕 MTech Pizzawala</h1>
+  <p>Fresh | Affordable | Delicious</p>
+</header>
+
+<section class="menu">
+  <h2>Our Menu</h2>
+
+  <div class="item">
+    <h3>Veg Pizza</h3>
+    <p>Price: ₹60</p>
+    <button onclick="order('Veg Pizza')">Order Now</button>
+  </div>
+
+  <div class="item">
+    <h3>Veg Burger</h3>
+    <p>Price: ₹50</p>
+    <button onclick="order('Veg Burger')">Order Now</button>
+  </div>
+
+  <div class="item">
+    <h3>Veg Sandwich</h3>
+    <p>Price: ₹50</p>
+    <button onclick="order('Veg Sandwich')">Order Now</button>
+  </div>
+</section>
+
+<section class="payment">
+  <h2>Payment Options</h2>
+  <p>Pay via UPI after ordering</p>
+  <a class="pay" href="upi://pay?pa=yourupi@upi&pn=MTechPizzawala&am=60&cu=INR">
+    Pay via UPI
+  </a>
+</section>
+
+<section class="address">
+  <h2>Our Address</h2>
+  <p>
+    MTech Pizzawala <br>
+    Near Engineering College <br>
+    City, Odisha <br>
+    📞 9XXXXXXXXX
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 MTech Pizzawala</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
