@@ -8,52 +8,42 @@
 <body>
 
 <header>
-  <h1>🍕 MTech Pizzawala</h1>
-  <p>Fresh | Affordable | Delicious</p>
+  <img src="logo.png" class="logo" alt="Logo">
+  <h1>MTech Pizzawala</h1>
+  <p>Fresh • Affordable • Delicious</p>
 </header>
 
 <section class="menu">
-  <h2>Our Menu</h2>
-
   <div class="item">
+    <img src="pizza.jpg">
     <h3>Veg Pizza</h3>
-    <p>Price: ₹60</p>
-    <button onclick="order('Veg Pizza')">Order Now</button>
+    <p>₹60</p>
+    <button onclick="orderNow('Veg Pizza',60)">Order Now</button>
   </div>
 
   <div class="item">
+    <img src="burger.jpg">
     <h3>Veg Burger</h3>
-    <p>Price: ₹50</p>
-    <button onclick="order('Veg Burger')">Order Now</button>
+    <p>₹50</p>
+    <button onclick="orderNow('Veg Burger',50)">Order Now</button>
   </div>
 
   <div class="item">
+    <img src="sandwich.jpg">
     <h3>Veg Sandwich</h3>
-    <p>Price: ₹50</p>
-    <button onclick="order('Veg Sandwich')">Order Now</button>
+    <p>₹50</p>
+    <button onclick="orderNow('Veg Sandwich',50)">Order Now</button>
   </div>
 </section>
 
 <section class="payment">
-  <h2>Payment Options</h2>
-  <p>Pay via UPI after ordering</p>
-  <a class="pay" href="upi://pay?pa=spanigrahi560-1@okicici@&pn=MTechPizzawala&am=60&cu=INR">
-    Pay via UPI
-  </a>
-</section>
-
-<section class="address">
-  <h2>Our Address</h2>
-  <p>
-    MTech Pizzawala <br>
-    G/295,CDA-7, Cuttack<br>
-    City, Odisha <br>
-    📞 7978900914
-  </p>
+  <h2>Pay Now</h2>
+  <button onclick="payNow()">Pay via UPI</button>
 </section>
 
 <footer>
-  <p>© 2026 MTech Pizzawala</p>
+  <p>📍 Address:G-295,CDA-7,Cuttack, Odisha</p>
+  <p>📞 Phone: 7978900914</p>
 </footer>
 
 <script src="script.js"></script>
