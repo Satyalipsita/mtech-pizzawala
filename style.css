@@ -1,63 +1,60 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff3e0;
+  margin: 0;
+  background: #fff8f0;
+  text-align: center;
 }
 
 header {
-  background: #e53935;
+  background: #e63946;
   color: white;
-  padding: 20px;
-  text-align: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 80px;
 }
 
 .menu {
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
 .item {
   background: white;
-  margin: 15px auto;
+  margin: 15px;
   padding: 15px;
-  width: 280px;
+  width: 220px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px #ccc;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 button {
-  background: #43a047;
+  background: #1d3557;
   color: white;
   border: none;
-  padding: 10px 18px;
-  border-radius: 6px;
+  padding: 10px 15px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background: #2e7d32;
+  background: #457b9d;
 }
 
-.payment, .address {
-  background: #fff;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.pay {
-  display: inline-block;
-  background: #1a73e8;
-  color: white;
-  padding: 12px 20px;
-  text-decoration: none;
-  border-radius: 6px;
+.payment {
+  margin: 30px;
 }
 
 footer {
   background: #333;
   color: white;
-  text-align: center;
   padding: 10px;
 }
